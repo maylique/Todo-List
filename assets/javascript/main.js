@@ -29,16 +29,6 @@ const arrayToDiv = (array) => {
 
         deleteBtn.addEventListener('click', function () {
             const div = this.parentNode;
-            const previousSiblings = [];
-        
-            let previousSibling = div.previousSibling;
-            while (previousSibling) {
-                if (previousSibling.nodeType === 1) {
-                    previousSiblings.push(previousSibling);
-                }
-                previousSibling = previousSibling.previousSibling;
-            }
-        
             div.remove();
         });
     
