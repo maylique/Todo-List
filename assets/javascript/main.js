@@ -4,7 +4,7 @@ let array = []
 
 
 const inputToArray = () => {
-    if (input.value >= 1) {
+    if (input.value.length >= 1) {
         array.push({ text: input.value, done: false });
     }
 }
