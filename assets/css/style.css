@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Genos', sans-serif;
+}
+
+html {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+input {
+    background-color: #1a1a1a;
+}
+
+main {
+    min-height: 20dvh;
+}
+
+#output div {
+    display: flex;
+}
