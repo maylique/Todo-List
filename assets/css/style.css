@@ -28,6 +28,10 @@ input[type=text]{
     transition: width .3s ease-in;
 }
 
+input[type=text]::placeholder {
+    text-align: center;
+}
+
 input[type=text]:focus {
     width: 20rem;
 }
